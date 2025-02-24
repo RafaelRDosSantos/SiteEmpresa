@@ -12,6 +12,22 @@
     padding-bottom: 150px;
 }
 
+.carousel-inner{
+    max-height: 600px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 400px; /* Altura fixa */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #VGL{
     background: rgb(91, 162, 237);;
     background-repeat: no-repeat;
