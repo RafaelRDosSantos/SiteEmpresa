@@ -1,0 +1,39 @@
+#LogotipoHeader{
+    width: 80%;
+    height: 80%;
+}
+
+#header{
+    padding: 20px;
+}
+
+#rent{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#rent1{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rent2{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Footer*/
+.footer {
+    margin-top: 35px; /* Aumenta a distância do footer em relação ao topo */
+    background-color: rgb(91, 162, 237); /* Cor do fundo do footer */
+    padding: 10px 0; /* Aumenta o espaçamento interno */
+    color: white; /* Garante que o texto fique legível */
+    text-align: center; /* Centraliza o texto */
+    font-size: 14px; /* Define o tamanho da fonte */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
