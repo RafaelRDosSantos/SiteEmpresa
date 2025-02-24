@@ -19,6 +19,18 @@
     padding-right: 20px;
 }
 
+#Purifog{
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#youtube{
+    text-align: center;
+    padding: 20 px;
+}
 
 /*Footer*/
 .footer {
