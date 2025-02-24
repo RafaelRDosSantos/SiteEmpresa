@@ -1,3 +1,13 @@
+#LogotipoHeader{
+    width: 80%;
+    height: 80%;
+}
+
+#header{
+    padding: 20px;
+}
+
+
 #zonaConteudo{
     width: 80%;
     margin: 0 auto;
@@ -46,26 +56,25 @@
 }
 
 #Telemovel {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-#Mensagem {
+#Assunto {
     margin-top: 10px;
+    resize: none;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#Mensagem{
+    margin-top: 10px;
+    resize: none;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
 .form-check:last-of-type {
     margin-bottom: 20px;
-}
-
-#Elemento{
-    display: flex;
-    align-items: start;
-    gap: 30px;
-}
-
-#Mensagem{
-    resize: none;
-    height: 150px;
 }
 
 /*Footer*/
