@@ -5,10 +5,6 @@
     font-size: 20px;
 }
 
-#zonaConteudo .row {
-    gap: 5px; /* Ajusta a distância entre as colunas */
-}
-
 #Titulo {
     margin-bottom: 20px;
 }
