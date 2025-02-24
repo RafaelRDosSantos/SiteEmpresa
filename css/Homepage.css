@@ -7,3 +7,82 @@
     padding: 20px;
 }
 
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 8px; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 60px; 
+    height: 4px; 
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff; 
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    z-index: 3;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: auto;
+}
+
+button.carousel-control-prev-icon,button.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+button.carousel-control-prev-icon:hover,
+button.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    margin-left: 50px;
+}
+
+#Imagem1{
+    background-color: #e0e0e0;
+    text-align: left;
+    padding-left: 160px ;
+}
+
+#Imagem2{
+    background-color: #000;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 160px ;
+}
+
+#youtube{
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+}
