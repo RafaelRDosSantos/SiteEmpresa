@@ -2,20 +2,44 @@
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    font-size: 20px;
 }
 
-#Informacoes {
-
-    overflow: hidden;
+#zonaConteudo .row {
+    gap: 5px; /* Ajusta a distância entre as colunas */
 }
 
-#Contacte_nos {
-    width:220px;
-    margin-left:30px;
-    float: right;
+#Titulo {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px; 
+}
+
+.social-icons a {
+    color: #007bff;
+    font-size: 24px;
+    margin: 0 15px; 
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a:hover {
+    background-color: #007bff;
+    color: #fff;
 }
 
 /*Form*/
+
+.form-label {
+    font-weight: 500;
+}
 
 #Nome {
     margin-bottom: 10px;
@@ -56,6 +80,5 @@
     color: white; /* Garante que o texto fique legível */
     text-align: center; /* Centraliza o texto */
     font-size: 14px; /* Define o tamanho da fonte */
-    font-family: 'Times New Roman', Times, serif;
 }
 

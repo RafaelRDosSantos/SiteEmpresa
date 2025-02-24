@@ -30,17 +30,39 @@
             <div class="row">
                 <section id="Informacoes" class="col-md-5">
                     <div>
-                        <h4>Titulo</h4>
-                        <p>Email: exemplo.gmail</p>
-                        <p>Redes Sociais: exemplo</p>
-                        <p>Telemovel: 123456789</p>
-                        <p>Telefone fixo: 123456789</p>
-                        <p>Local: exemplo</p>
+                        <h3 id="Titulo">Informações</h3>
+                        <h5>Email:</h5><p>carlos.silva@vgl24.pt </p>
+                        <p><h5>Redes Sociais:</h5><div class="social-icons">
+                            <a href="https://www.linkedin.com/company/vgl24/" aria-label="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://www.facebook.com/vgl24" aria-label="Facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="https://instagram.com" aria-label="Instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div></p>
+                        <h5>Telemovel:</h5><p>914 583 995</p>
+                        <h5>Telefone Fixo:</h5><p> 244 047 166</p>
+                        <h5>Sede:</h5>
+                        <p>Edifício Base
+                            Rua Agostinho Tinoco
+                            Lt 13 Loja 2 Capuchos
+                            2400-084 Leiria</p>
+                        <h5>Loja:</h5>
+                        <p>Estrada Nacional 356/1
+                            Mangas Maceira
+                            2405-033  Leiria</p>
+                        <h5>Armazém:</h5>
+                        <p> Estrada Nacional 356 18 
+                            Casal Do Arqueiro
+                            2440-019 Batalha</p>
                     </div>
                 </section>
                 
                 <section id="Contacte_nos" class="col-md-7">
-                    <h3>Contacte-nos</h3>
+                    <h3 id="Titulo">Contacte-nos</h3>
                     <!--Replace the **** with the desired destination to submit the form-->
                     <form id="contact-form" action="****" method="POST">
                         <!--Area for the user to insert his Name-->
@@ -72,6 +94,10 @@
                                 <input class="form-check-input" type="radio" name="Genero" id="Masculino" value="Masculino">
                                 <label class="form-check-label" for="Masculino">Masculino</label>
                             </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Genero" id="Outro" value="Outro" required>
+                                <label class="form-check-label" for="Outro">Outro</label>
+                            </div>
                         </div>
                         <!--Area for the user to insert his message-->
                         <div class="col-12">
@@ -97,7 +123,7 @@
             <div class="footer-divider"></div>
               <!-- Copyright -->
               <p >
-                  ©<span id="ano"></span> Copyright VGL, Todos os direitos reservados
+                  ©<span id="ano"></span> Copyright VGL24, Todos os direitos reservados
               </p>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

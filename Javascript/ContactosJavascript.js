@@ -42,9 +42,10 @@ function validateForm() {
     // Validates if there is option select for the Gender
     var GeneroMasculino = document.getElementById("Masculino");
     var GeneroFeminino = document.getElementById("Feminino");
-    if (!GeneroMasculino.checked && !GeneroFeminino.checked) {
+    var GeneroOutro = document.getElementById("Outro");
+    if (!GeneroMasculino.checked && !GeneroFeminino.checked && !GeneroOutro.checked) {
         isValid = false;
-        showError("Masculino", "Escolha o seu gênero");
+        showError("Escolha o seu gênero");
     }
 
     // Validates the Message
