@@ -1,0 +1,60 @@
+#zonaConteudo{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#Informacoes {
+
+    overflow: hidden;
+}
+
+#Contacte_nos {
+    width:220px;
+    margin-left:30px;
+    float: right;
+}
+
+/*Form*/
+
+#Nome {
+    margin-bottom: 10px;
+}
+
+#Email {
+    margin-bottom: 10px;
+}
+
+#Telemovel {
+    margin-bottom: 20px;
+}
+
+#Mensagem {
+    margin-top: 10px;
+}
+
+.form-check:last-of-type {
+    margin-bottom: 20px;
+}
+
+#Elemento{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+#Mensagem{
+    resize: none;
+    height: 150px;
+}
+
+/*Footer*/
+.footer {
+    margin-top: 50px; /* Aumenta a distância do footer em relação ao topo */
+    background-color: rgb(144, 12, 12); /* Cor do fundo do footer */
+    padding: 40px 0; /* Aumenta o espaçamento interno */
+    color: white; /* Garante que o texto fique legível */
+    text-align: center; /* Centraliza o texto */
+    font-size: 14px; /* Define o tamanho da fonte */
+}
+
