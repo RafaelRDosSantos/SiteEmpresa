@@ -3,6 +3,7 @@
     <head>
         <!-- Repositórios -->
         <title>Vgl24</title>
+        <link rel="icon" type="image/x-icon" href="Imagens/VGL_LOGO.png">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="Css/Homepage.css">
@@ -15,17 +16,76 @@
         <!--Cabeçalho-->
         <section id="header">
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                <a href="https://www.vgl24.pt/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+                <a href="Homepage.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
                     <img src="Imagens\VGL_LOGO.png" id="LogotipoHeader">
                 </a>
                 <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="HomePage.html">Home</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Países.html">Países</a>
+                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Homepage.html">Pagina inicial</a>
+                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Servicos.html">Serviços</a>
+                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Downloads.html">Downloads</a>
                     <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Loja.html">Loja</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Favoritos.html">Favoritos</a>
+                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Portfolio.html">Portfólio</a>
                     <a href="Contactos.html" class="me-4"><button type="button" class="btn btn-outline-primary">Contactos</button></a> 
                 </nav>
             </div> 
       </section>
+
+      <!--Carousel-->
+    <div id="carouselPaísesIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators (Bottom lines) -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselPaísesIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselPaísesIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <section id="Japão">
+              <div class="row align-items-center">
+                <div class="col-md py-2">
+                  <h1>Descobre o Japão</h1>
+                  <p>Faz uma viagem pelos destinos mais deslumbrantes do mundo. Das ruas vibrantes de Nova Iorque às antigas ruínas de Roma, cada imagem revela um lugar à espera de ser explorado.
+                  <br>
+                  <br>Quer seja para aventura, relaxamento ou descoberta, encontra o teu próximo destino connosco.</p>
+                  <a href="Países.html"><button class="btn btn-outline-primary">Explorar</button></a>
+                </div>
+                <div class="col-md py-2">
+                  <img src="imagens/11.png" class="img-fluid" alt="Monumento Japão">
+                </div>
+              </div>
+            </section>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <section id="Austrália">
+              <div class="row align-items-center">
+                <div class="col-md py-2">
+                  <h1>Descobre a Austrália</h1>
+                  <p>Descobre a vibrante Grande Barreira de Coral, a famosa Ópera de Sydney e o vasto Outback. <br>
+                  <br>
+                  A Austrália oferece uma vida selvagem única, costas ensolaradas e paisagens diversificadas.</p>
+                  <a href="Países.html"><button class="btn btn-outline-primary">Explorar</button></a>
+                </div>
+                <div class="col-md py-2">
+                  <img src="imagens/12.png" class="img-fluid" alt="Monumento Austrália">
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPaísesIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPaísesIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </body>
 </html>
