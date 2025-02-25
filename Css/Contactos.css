@@ -78,6 +78,11 @@
     margin-bottom: 20px;
 }
 
+.form-check-label {
+    white-space: nowrap;
+}
+  
+
 /*Footer*/
 .footer {
     margin-top: 50px; /* Aumenta a distância do footer em relação ao topo */
