@@ -1,0 +1,38 @@
+/*Header*/
+#LogotipoHeader{
+  width: 80%;
+  height: 80%;
+}
+
+#header{
+  padding: 20px;
+}
+
+#empresas {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+    /* Aumente o gap para ter mais espaço entre as colunas e as linhas */
+  gap: 90px;
+    /* Se preferir controlar colunas e linhas separadamente:
+       column-gap: 60px;
+     row-gap: 30px;
+    */
+  justify-content: center; 
+  padding: 20px 0;
+}
+  
+#empresas img {
+  width: 100%;
+  height: auto;
+}
+  
+
+/*Footer*/
+.footer {
+  margin-top: 35px; /* Aumenta a distância do footer em relação ao topo */
+  background-color: rgb(91, 162, 237); /* Cor do fundo do footer */
+  padding: 10px 0; /* Aumenta o espaçamento interno */
+  color: white; /* Garante que o texto fique legível */
+  text-align: center; /* Centraliza o texto */
+  font-size: 14px; /* Define o tamanho da fonte */
+}
