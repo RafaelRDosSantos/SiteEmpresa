@@ -1,0 +1,45 @@
+#LogotipoHeader{
+    width: 80%;
+    height: 80%;
+}
+
+#header{
+    padding: 20px;
+}
+
+#rent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo se ajuste sem ultrapassar o footer */
+}
+
+#Comb {
+    position: relative; /* Alterado de absolute para relative */
+    width: 300px;
+    height: auto; /* Ajusta a altura conforme necessário */
+    justify-content: center;
+    align-items: center;
+}
+
+#Cards {
+    
+}
+
+.stacked {
+    width: 200%; /* Aumenta a largura em 20% */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px; /* Aumentei um pouco para garantir espaço */
+    background-color: rgb(91, 162, 237);
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
