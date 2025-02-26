@@ -1,11 +1,13 @@
 /*Header*/
 #LogotipoHeader{
-    width: 80%;
-    height: 80%;
+    max-width: 200px;
+    height: auto;
 }
 
 #header{
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }
 
 
@@ -76,12 +78,7 @@
 
 .form-check:last-of-type {
     margin-bottom: 20px;
-}
-
-.form-check-label {
-    white-space: nowrap;
-}
-  
+} 
 
 /*Footer*/
 .footer {

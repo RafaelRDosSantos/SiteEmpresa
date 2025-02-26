@@ -20,21 +20,59 @@
     </head>
     <body>
         <!--header-->
-        <section id="header">
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                <a href="Homepage.html" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                    <img src="Imagens\VGL_LOGO.png" id="LogotipoHeader">
-                </a>
-                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Homepage.html">Pagina inicial</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Servicos.html">Serviços</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Downloads.html">Downloads</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Loja.html">Loja</a>
-                    <a class="me-5 py-2 link-body-emphasis text-decoration-none" href="Portfolio.html">Portfólio</a>
-                    <a href="Contactos.html" class="me-4"><button type="button" class="btn btn-outline-primary">Contactos</button></a> 
-                </nav>
-            </div> 
-      </section>
+        <section id="header" class="w-100 p-0">
+            <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom py-md-2">
+                <div class="container-fluid p-0 ">
+                    <a href="Homepage.html" class="d-flex align-items-center link-body-emphasis text-decoration-none ms-md-4">
+                        <img src="Imagens\VGL_LOGO.png" id="LogotipoHeader" class="img-fluid" alt="Logotipo">
+                    </a>
+
+                    <!-- Botão que aparece em telas pequenas para expandir/colapsar o menu -->
+                    <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarContent" 
+                    aria-controls="navbarContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Menu que recolhe/expande -->
+                    <div class="collapse navbar-collapse ps-md-0 ps-3" id="navbarContent">
+                        <!-- Alinhamento à direita (ms-auto) -->
+                        <ul class="navbar-nav ms-auto me-md-5 gap-md-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="Homepage.html">Página Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Servicos.html">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Downloads.html">Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Loja.html">Loja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Portfolio.html">Portfólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-primary d-flex align-items-center" href="pagina-destino.html">
+                                  <img src="Imagens/Login.png" alt="Ícone" style="width:20px; margin-right:5px;">
+                                  <span>Iniciar sessão</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </nav>
+        </section>
 
         <section id="zonaConteudo" class="container">
             <div class="row g-5">
@@ -73,7 +111,7 @@
                     </div>
                 </section>
                 
-                <section id="Contacte_nos" class="col-md-6 ms-5">
+                <section id="Contacte_nos" class="col-md-6 ms-md-5">
                     <h3 id="Titulo">Contacte-nos</h3>
                     <!--Replace the **** with the desired destination to submit the form-->
                     <form id="contact-form">
@@ -92,7 +130,7 @@
                         <!--Area for the user to insert his Phone Number-->
                         <div class="col-md-6">
                             <label for="Telemovel" class="form-label">Telemóvel</label>
-                            <input type="tel" class="form-control" id="Telemovel" placeholder="+XX XXX XXX XXX" required>
+                            <input type="tel" class="form-control" id="Telemovel" placeholder="+XXX XXX XXX XXX" required>
                             <div class="invalid-feedback"></div>
                         </div>
                         <!--Area for the user to insert his subject-->
@@ -129,5 +167,9 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script type="text/javascript" src="javascript/Contactos.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+        crossorigin="anonymous"></script>
     </body>
 </html>
