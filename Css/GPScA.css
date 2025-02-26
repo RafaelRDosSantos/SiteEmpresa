@@ -18,6 +18,12 @@
     padding-right: 20px;
 }
 
+#IPOS{
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #Bombas{
   padding-bottom: 40px;
   padding-left: 20px;
@@ -90,8 +96,26 @@
     padding-right: 8px;
   }
 
-#youtube{
-    text-align: center;
+  #youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre a imagem e o vídeo */
+    flex-wrap: wrap; /* Para que em telas menores, os elementos se empilhem */
+}
+
+.imagens {
+    height: 400px; /* Define a altura desejada */
+    /* Você pode definir também uma largura fixa ou usar width: auto; */
+}
+
+.imagem{
+  padding-top: 50px;
+  padding-left: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /*Footer*/
