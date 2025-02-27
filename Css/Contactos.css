@@ -10,7 +10,34 @@
     background-color: #fff;
 }
 
+#imgLogin{
+    width: 20px;
+    margin-right: 5px;
+}
+ 
 
+#btnIniciarSessao {
+    background-color:rgb(91, 162, 237);
+    color: #fff;             
+    border: none;            
+}
+  
+#btnIniciarSessao:hover {
+    background-color: #218838;
+}
+  
+#btnRegistar {
+    background-color:rgb(91, 162, 237);
+    color: #fff; 
+    border: none;
+}
+  
+#btnRegistar:hover {
+    background-color: #e0a800;
+}
+
+
+/*Corpo da Pagina*/
 #zonaConteudo{
     width: 80%;
     margin: 0 auto;
@@ -79,6 +106,10 @@
 .form-check:last-of-type {
     margin-bottom: 20px;
 } 
+
+.from-check {
+
+}
 
 /*Footer*/
 .footer {

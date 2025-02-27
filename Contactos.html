@@ -63,8 +63,8 @@
                                 <a class="nav-link" href="Contactos.html">Contactos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link btn btn-outline-primary d-flex align-items-center" href="pagina-destino.html">
-                                  <img src="Imagens/Login.png" alt="Ícone" style="width:20px; margin-right:5px;">
+                                <a id="btnLogin" class="nav-link btn d-flex align-items-center"  data-bs-toggle="modal" data-bs-target="#loginModal">
+                                  <img src="Imagens/Login.png" id="imgLogin" alt="Ícone">
                                   <span>Iniciar sessão</span>
                                 </a>
                             </li>
@@ -79,7 +79,7 @@
                 <section id="Informacoes" class="col-md-4">
                     <div>
                         <h3 id="Titulo">Informações</h3>
-                        <h5>Email:</h5><p>carlos.silva@vgl24.pt </p>
+                        <h5>Email:</h5><p>geral@vgl24.pt</p>
                         <p><h5>Redes Sociais:</h5><div class="social-icons">
                             <a href="https://www.linkedin.com/company/vgl24/" aria-label="LinkedIn">
                                 <i class="bi bi-linkedin"></i>
@@ -87,27 +87,17 @@
                             <a href="https://www.facebook.com/vgl24" aria-label="Facebook">
                                 <i class="bi bi-facebook"></i>
                             </a>
-                            <a href="https://instagram.com" aria-label="Instagram">
-                                <i class="bi bi-instagram"></i>
-                            </a>
                         </div></p>
-                        <h5>Telemóvel de Portugal:</h5><p>914 583 995</p>
-                        <h5>Telefone Fixo de Portugal:</h5><p> 244 047 166</p>
-                        <h5>Telemóvel de Espanha:</h5><p>800 180 148</p>
-                        <h5>Telemóvel de França:</h5><p>805 080 499</p>
+                        <h5>Telefone Fixo:</h5><p>244 845 538</p>
                         <h5>Sede:</h5>
-                        <p>Edifício Base
-                            Rua Agostinho Tinoco
-                            Lt 13 Loja 2 Capuchos
-                            2400-084 Leiria</p>
-                        <h5>Loja:</h5>
-                        <p>Estrada Nacional 356/1
-                            Mangas Maceira
-                            2405-033  Leiria</p>
-                        <h5>Armazém:</h5>
-                        <p> Estrada Nacional 356 18 
-                            Casal Do Arqueiro
-                            2440-019 Batalha</p>
+                        <p>Rua da Árvore n.2A
+                            2405-001
+                            Maceira</p>
+                        <h5>Escritórios:</h5>
+                        <p>Estrada Nacional 351-1
+                            Km 3.2
+                            2405-013 
+                            Maceira</p>
                     </div>
                 </section>
                 
@@ -165,6 +155,32 @@
                   ©<span id="ano"></span> Copyright VGL, Todos os direitos reservados
               </p>
         </footer>
+
+        <!--Janela popup Login-->
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Cabeçalho do modal -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Bem Vindo!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!-- Corpo do modal -->
+                    <div class="modal-body text-center">
+                        <p>Inicia sessão ou cria uma conta para teres uma experiência personalizada!</p>
+                        <div class="d-flex justify-content-center gap-3">
+                        <!-- Botões de ação -->
+                        <a href="IniciarSessão.html" id="btnIniciarSessao" class="btn">
+                            Iniciar Sessão
+                        </a>
+                        <a href="RegistarConta.html" id="btnRegistar" class="btn">
+                            Criar Conta
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script type="text/javascript" src="javascript/Contactos.js"></script>
 
