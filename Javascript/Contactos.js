@@ -16,7 +16,7 @@ function validateForm() {
   // Flag to track if the form is valid
   let isValid = true;
 
-  // Validates the Name
+  // Validates the Name   
   var Nome = document.getElementById('Nome');
   if (Nome.value.length < 2) {
       isValid = false;
