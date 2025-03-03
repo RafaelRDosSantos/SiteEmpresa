@@ -1,4 +1,9 @@
-  const questions = [
+//Copyright
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("ano").textContent = new Date().getFullYear();
+});
+
+const questions = [
     {
       type: 'multiple',
       question: '1. Qual é o tipo de serviço que está a procurar?',

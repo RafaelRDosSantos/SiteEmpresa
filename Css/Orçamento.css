@@ -44,7 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    text-align: center;
 }
 
 .service {
@@ -108,12 +108,6 @@
     font-weight: bold;
 }
 
-#wrapper {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
 #progress-container {
     width: 100%;
     background: #ccc;
@@ -124,7 +118,7 @@
     max-width: 600px;
   }
   
-  #progress-bar {
+#progress-bar {
     width: 0%;
     height: 100%;
     background: #007bff;
@@ -142,37 +136,37 @@
   }
   
   /* Efeito de fade */
-  .hidden {
-    opacity: 0;
-  }
+.hidden {
+  opacity: 0;
+}
   
   /* Botões de opção */
-  .option-btn {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+.option-btn {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
   
-  .option-btn:hover {
-    background: #0056b3;
-  }
+.option-btn:hover {
+  background: #0056b3;
+}
   
   /* Estilos para campos de texto */
-  .text-input {
-    width: 90%;
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
+.text-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
   
   .contact-form button {
     margin-top: 10px;
@@ -203,6 +197,37 @@
     }
 }
 
+/* Wrapper para centralizar o conteúdo */
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Cada item do accordion */
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* Cabeçalho do accordion */
+.accordion-header {
+  background: #007bff;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Conteúdo do accordion (inicialmente oculto) */
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background: #f9f9f9;
+  text-align: left;
+}
 
 /*Footer*/
 .footer {
@@ -212,7 +237,7 @@
     color: white; /* Garante que o texto fique legível */
     text-align: center; /* Centraliza o texto */
     font-size: 14px; /* Define o tamanho da fonte */
-    position: fixed;
+    position: flex;
     left: 0;
     bottom: 0;
     width: 100%;
