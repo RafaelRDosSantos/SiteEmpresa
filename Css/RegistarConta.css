@@ -49,3 +49,49 @@
     text-align: center; /* Centraliza o texto */
     font-size: 14px; /* Define o tamanho da fonte */
 }
+
+
+
+/*Form*/
+
+.google-login-btn {
+    /* Fundo branco */
+    background-color: #fff; 
+    
+    /* Contorno/linha fina em volta */
+    border: 1px solid #ccc; 
+    
+    /* Cor do texto */
+    color: #555; 
+    
+    /* Largura total do container do botão (opcional) */
+    width: 100%; 
+    
+    /* Espaçamento interno */
+    padding: 10px; 
+    
+    /* Tamanho da fonte */
+    font-size: 16px; 
+    
+    /* Peso da fonte */
+    font-weight: 500; 
+    
+    /* Bordas arredondadas */
+    border-radius: 4px;
+    
+    /* Para centralizar texto caso remova a classe .btn do Bootstrap */
+    text-align: center;
+  }
+  
+  /* Ao passar o mouse (hover) */
+  .google-login-btn:hover {
+    background-color: #f8f8f8; 
+    border-color: #ffffff; 
+  }
+  
+  /* Ajustar o ícone do Google dentro do botão (opcional) */
+  .google-login-btn i {
+    font-size: 18px;      /* Tamanho do ícone */
+    color: #4285f4;       /* Cor do “G” (azul Google), se quiser */
+  }
+  
