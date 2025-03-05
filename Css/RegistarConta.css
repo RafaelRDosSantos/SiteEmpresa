@@ -1,0 +1,51 @@
+/*Header*/
+#LogotipoHeader{
+    max-width: 200px;
+    height: auto;
+}
+
+#header{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+#imgLogin{
+    width: 20px;
+    margin-right: 5px;
+}
+ 
+#btnIniciarSessao {
+    background-color:rgb(91, 162, 237);
+    color: #fff;             
+    border: none;            
+}
+  
+#btnIniciarSessao:hover {
+    background-color: #218838;
+}
+  
+#btnRegistar {
+    background-color:rgb(91, 162, 237);
+    color: #fff; 
+    border: none;
+}
+  
+#btnRegistar:hover {
+    background-color: #e0a800;
+}
+
+
+/*Corpo da Pagina*/
+
+
+
+/*Footer*/
+.footer {
+    margin-top: 50px; /* Aumenta a distância do footer em relação ao topo */
+    background-color: rgb(91, 162, 237); /* Cor do fundo do footer */
+    padding: 10px 0; /* Aumenta o espaçamento interno */
+    color: white; /* Garante que o texto fique legível */
+    text-align: center; /* Centraliza o texto */
+    font-size: 14px; /* Define o tamanho da fonte */
+}
