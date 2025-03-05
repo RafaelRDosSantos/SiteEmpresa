@@ -197,7 +197,7 @@
     }
 }
 
-/* Wrapper para centralizar o conteúdo */
+/* Estilo base para o accordion */
 .accordion {
   max-width: 800px;
   margin: 0 auto;
@@ -228,6 +228,7 @@
   background: #f9f9f9;
   text-align: left;
 }
+
 
 /*Footer*/
 .footer {
